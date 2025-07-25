@@ -1,0 +1,11 @@
+export const DATABASE_CONSTANTS = {
+    DEFAULT_PAGE_SIZE: 10,
+    MAX_PAGE_SIZE: 100,
+    DEFAULT_PAGE: 1,
+  } as const;
+  
+  export const DATABASE_ERRORS = {
+    DUPLICATE_KEY: '23505',
+    FOREIGN_KEY_VIOLATION: '23503',
+    NOT_NULL_VIOLATION: '23502',
+  } as const;
