@@ -8,7 +8,7 @@ import { UpdateUserDto } from './dto/update-user.dto';
 import { checkCaptcha } from 'src/common/utils/check-captcha.util';
 import { ForgotPasswordDto } from './dto/forgot-password.dto';
 import { ConfigService } from '@nestjs/config';
-import { HashUtil } from 'src/common/utils/hash.util';
+import { HashUtil } from '../../common/utils/hash.util';
 
 @Injectable()
 export class UsersService {

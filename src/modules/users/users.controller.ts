@@ -26,7 +26,7 @@ import { ForgotPasswordDto } from './dto/forgot-password.dto';
 import { AuthService } from '../auth/auth.service';
 import { ConfigService } from '@nestjs/config';
 import { MailService } from '../mail/mail.service';
-import * as dayjs from 'dayjs';
+import dayjs from 'dayjs';
 import { VerificationToken } from './entities/verification-tokens.entity';
 import { VerificationTokenRepository } from './repositories/verification-tokens.repository';
 import { ChangePasswordDto } from './dto/change-password.dto';
